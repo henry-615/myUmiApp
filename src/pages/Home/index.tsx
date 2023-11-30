@@ -1,3 +1,4 @@
+import DemoLine from '@/components/DemoLine';
 import Guide from '@/components/Guide';
 import { trim } from '@/utils/format';
 import { PageContainer } from '@ant-design/pro-components';
@@ -14,6 +15,7 @@ const HomePage: React.FC = () => {
     <PageContainer ghost>
       <div className={styles.container}>
         <Guide name={trim(name) + myName} />
+        <DemoLine />
       </div>
     </PageContainer>
   );
