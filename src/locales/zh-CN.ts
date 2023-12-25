@@ -3,4 +3,8 @@ export default {
   user: {
     name: '赵攀',
   },
+  'menu.mhome': 'My首页',
+  menu: {
+    mhome: 'My首页',
+  },
 };

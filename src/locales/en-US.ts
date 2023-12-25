@@ -3,4 +3,8 @@ export default {
   user: {
     name: 'Zhaopan',
   },
+  'menu.mhome': 'MyHome',
+  menu: {
+    mhome: 'MyHome',
+  },
 };

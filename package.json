@@ -14,8 +14,12 @@
     "@ant-design/icons": "^5.2.6",
     "@ant-design/plots": "^2.0.5",
     "@ant-design/pro-components": "^2.6.43",
+    "@ebay/nice-modal-react": "^1.2.13",
     "@umijs/max": "^4.0.88",
-    "antd": "^5.11.5"
+    "ahooks": "^3.7.8",
+    "antd": "^5.11.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.39",

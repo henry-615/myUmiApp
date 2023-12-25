@@ -8,6 +8,7 @@ export default defineConfig({
   request: {},
   layout: {
     title: '@umijs/max',
+    locale: true,
   },
   locale: {
     // 默认使用 src/locales/zh-CN.ts 作为多语言文件
@@ -20,7 +21,8 @@ export default defineConfig({
       redirect: '/home',
     },
     {
-      name: '首页',
+      name: 'mhome',
+      key: 'mhome',
       path: '/home',
       component: './Home',
     },
